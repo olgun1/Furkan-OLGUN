@@ -1,0 +1,108 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.navbar{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: gray;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+h2{
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+a:hover{
+    color:aqua;
+}
+
+h2:hover{
+    color: aqua;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    font-weight: bold; /* Header yazıları daha kalın */
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+}
+
+.profile img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.profile h2,
+.profile p,
+.skills h2 {
+    font-weight: bold; /* Başlık ve metinleri daha kalın yap */
+}
+
+.skills {
+    max-width: 400px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+    height: 30px;
+}
+
+
+.skill-item {
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #4caf50;
+}

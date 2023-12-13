@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>ILETISIM SAYFASI</title>
+    <style>
+        body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #888;
+    overflow: hidden;
+    padding-left: 100px; 
+    padding-right: 100px; 
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <!-- NAVBAR BASLANGIC -->
+    <div class="navbar">
+        <a href="index.html">ANA SAYFA</a>
+        <a href="#">HAKKIMDA </a>
+        <a href="iletisim.html">İLETİSİM</a>
+        <a href="sertifika.html">SERTİFİKALAR</a>
+    </div>
+
+  
+    <!-- NAVBAR BITIS -->
+
+    <!--Section: Contact v.2-->
+<div class="container">
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">BİZE ULASIN</h2>
+    <hr>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Merhaba! Bizimle iletişime geçmekten mutluluk duyarız. Aşağıdaki bilgilerden bize ulaşabilir veya iletişim formunu doldurabilirsiniz.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="name" class="">Ad Soyad</label>
+                            <input type="text" id="name" name="name" class="form-control">
+                            
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="email" class="">E-Posta</label>
+                            <input type="text" id="email" name="email" class="form-control">
+                            
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <label for="subject" class="">Konu</label>
+                            <input type="text" id="subject" name="subject" class="form-control">
+                           
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <label for="message">Mesajınız...</label>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+              <br>  <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">GONDER</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>MANAVGAT, ANTALYA</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+90 254 859 25 25</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>saidolgun3866@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+         <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">MESAJINIZ İÇİN TEŞEKKÜRLER </h2>
+    <hr>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Bize gönderdiğiniz her mesajı değerli buluyoruz. En kısa sürede size geri döneceğiz. İlginiz için teşekkür ederiz!</p>
+
+
+    </div>
+
+</section>
+
+</div>
+<!--Section: Contact v.2-->
+
+<footer>
+    <p>&copy; 2023 - Developer By Furkan OLGUN </p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+</body>
+</html>

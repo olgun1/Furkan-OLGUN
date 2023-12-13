@@ -1,0 +1,70 @@
+
+.navbar{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: gray;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+h2{
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+a:hover{
+    color:aqua;
+}
+
+h2:hover{
+    color: aqua;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Sayfa arka plan rengi */
+}
+
+header {
+    background-color: #333; /* Başlık arka plan rengi */
+    color: #fff; /* Başlık metin rengi */
+    text-align: center;
+    padding: 20px;
+}
+
+.certificates {
+    max-width: 800px; /* Sertifika bölümünün maksimum genişliği */
+    margin: 20px auto;
+    text-align: center;
+}
+
+.certificate {
+    display: inline-block;
+    margin: 0 10px 20px; /* Sağ ve sol taraftan boşluk bırakma */
+}
+
+.certificate img {
+    max-width: 100%; /* Resmin maksimum genişliği */
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold; /* Footer yazıları daha kalın */
+}
